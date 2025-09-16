@@ -28,6 +28,6 @@ run: quarto render DiamondsPrice.qmd --output-dir=html
 
 # Publish html/ to GitHub pages
 - name: Publish to GitHub pages 🚀
-uses: Susan-gitconf/github-pages-deploy-action@v4.5.0
+uses: JamesIves/github-pages-deploy-action@v4.5.0
 with:
   folder: html
